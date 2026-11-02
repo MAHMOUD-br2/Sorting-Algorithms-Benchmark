@@ -82,17 +82,7 @@ Execution time is measured in microseconds (µs).
 
 ## Performance Chart
 
-The following chart compares the algorithms on Random input.
-
-```mermaid
-
-xychart-beta
-
-    title “Sorting Time - Random Array”
-
-    x-axis [“Selection”, “Insertion”, “Bubble”, “Merge”, “Quick”]
-
-    y-axis “Time (microseconds)” 0 —> 18000000
+![Chart](chart.png)
 
     bar [10041993, 1308295, 17364781, 23478, 23522]
 ```   
